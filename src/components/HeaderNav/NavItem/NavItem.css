@@ -1,0 +1,18 @@
+.nav-item {
+  position: relative;
+}
+
+.underline {
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-4);
+  transition: width 0.3s ease;
+  border: none;
+}
+
+.nav-item:hover .underline {
+  width: 50%;
+}
