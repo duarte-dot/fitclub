@@ -1,9 +1,10 @@
 .header {
   display: flex;
   justify-content: center;
-  gap: 4rem;
   align-items: center;
-  padding: 1rem 2rem;
+  max-width: fit-content;
+  margin: 0 auto;
+  gap: 6rem;
 }
 
 .logo img {

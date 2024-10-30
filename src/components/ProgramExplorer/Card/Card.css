@@ -1,0 +1,53 @@
+.card {
+  background-color: var(--color-2);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  padding: 15px 15px;
+  border-radius: 10%;
+  background-color: var(--color-5);
+  color: var(--color-7);
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 1px 2px;
+  color: var(--color-7);
+}
+
+.card-description {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: var(--color-6);
+}
+
+.join-button {
+  font-size: 14px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--color-7);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
