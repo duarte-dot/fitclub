@@ -1,0 +1,77 @@
+.card-pricing {
+  background-color: var(--color-2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: justify;
+  width: 230px;
+  border: 1px solid var(--color-3);
+}
+
+.card-pricing:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-4);
+  transform: translateY(-5px);
+}
+
+.benefits {
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: var(--color-7);
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.icon-and-benefit {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.benefit {
+  margin: 0;
+}
+
+.join-button-pricing {
+  border: 2px solid var(--color-5);
+  background: transparent;
+  color: orange;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+.join-button-pricing:hover {
+  background: var(--color-5);
+  color: white;
+}
+
+.icon-benefit {
+  color: var(--color-5);
+}
+
+.title-pricing-card {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .card-pricing {
+    width: 72%;
+    height: 320px;
+  }
+}

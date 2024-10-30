@@ -7,7 +7,7 @@ export const Card = ({ title, description, icon }) => {
       <div className="card-icon">{icon}</div>
       <h3 className="card-title">{title}</h3>
       <p className="card-description">{description}</p>
-      <button className="join-button">
+      <button className="join-button-card">
         Join now <IoArrowForward />
       </button>
     </div>

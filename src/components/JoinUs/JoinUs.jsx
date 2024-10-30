@@ -11,6 +11,7 @@ const JoinUs = () => {
         Our diverse membership base creates a friendly and supportive
         atmosphere, where you can make friends and stay motivated.
       </h2>
+
       <div className="image-container">
         <img src="join.jpg" alt="Join Us" className="join-image" />
         <div className="info-container">

@@ -72,12 +72,13 @@
 
 .hero-background-O,
 .hero-background-O2 {
+  user-select: none;
   position: absolute;
   font-size: 30rem;
   color: var(--color-4);
   opacity: 0.1;
   filter: blur(4px);
-  z-index: 0;
+  z-index: -1;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -109,6 +110,7 @@
   z-index: 0;
   bottom: -4%;
   right: 70%;
+  user-select: none;
 }
 
 @media (max-width: 920px) {
@@ -149,6 +151,7 @@
 
   .hero-title {
     font-size: 3rem;
+    margin-top: 8px;
   }
 
   .hero-subtitle {
@@ -159,5 +162,9 @@
     font-size: 0.9rem;
     max-width: 100%;
     text-align: justify;
+  }
+
+  .hero-button {
+    margin-top: 16px;
   }
 }

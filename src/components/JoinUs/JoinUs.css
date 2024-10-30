@@ -81,3 +81,35 @@ p {
   font-size: 0.8rem;
   margin-bottom: 5px;
 }
+
+@media (max-width: 768px) {
+  .info-container {
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+    align-items: center;
+  }
+
+  .info-box {
+    width: 100%;
+  }
+
+  .icon-and-info {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .image-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .join-image {
+    max-width: 90%;
+  }
+
+  .joinus-subtitle {
+    max-width: 90%;
+  }
+}
