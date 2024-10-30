@@ -19,7 +19,7 @@
 
 .nav a {
   text-decoration: none;
-  color: white;
+  color: var(--color-7);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -27,7 +27,7 @@
 .join-button button {
   padding: 0.8rem 1.2rem;
   background-color: var(--color-5);
-  color: white;
+  color: var(--color-7);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -49,7 +49,7 @@
   display: none;
   font-size: 30px;
   cursor: pointer;
-  color: white;
+  color: var(--color-7);
 }
 
 /* Mobile */

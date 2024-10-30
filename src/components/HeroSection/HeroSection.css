@@ -1,0 +1,163 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+  gap: 20px;
+}
+
+.hero-image,
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.mobile_hero-image {
+  display: none;
+  width: 100%;
+  max-width: 200px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--color-5);
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: var(--color-7);
+  margin: 0 0 15px;
+}
+
+.hero-title span {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--color-7);
+  text-transform: uppercase;
+}
+
+.hero-description {
+  font-size: 0.8rem;
+  color: var(--color-6);
+  max-width: 72%;
+}
+
+.hero-button {
+  font-size: 1.2rem;
+  color: var(--color-7);
+  background-color: var(--color-5);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: var(--color-4);
+}
+
+.hero-background-O,
+.hero-background-O2 {
+  position: absolute;
+  font-size: 30rem;
+  color: var(--color-4);
+  opacity: 0.1;
+  filter: blur(4px);
+  z-index: 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-background-O {
+  font-size: 25rem;
+  left: 72%;
+  display: block;
+}
+
+.hero-background-O2 {
+  display: none;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-background-fitness {
+  position: absolute;
+  font-size: 5.5rem;
+  font-weight: bold;
+  color: var(--color-6);
+  opacity: 0.1;
+  z-index: 0;
+  bottom: -4%;
+  right: 70%;
+}
+
+@media (max-width: 920px) {
+  .hero-background-fitness {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-background-O {
+    display: none;
+  }
+
+  .hero-background-O2 {
+    display: block;
+  }
+
+  .mobile_hero-image {
+    display: block;
+    margin-bottom: -50px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+    max-width: 100%;
+    text-align: justify;
+  }
+}
