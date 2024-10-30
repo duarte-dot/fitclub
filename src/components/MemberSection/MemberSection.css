@@ -1,0 +1,81 @@
+.container {
+  background-color: var(--color-2);
+  position: relative;
+  font-family: Arial, sans-serif;
+  padding: 4% 20%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.quote {
+  font-size: 10rem;
+  color: var(--color-5);
+  opacity: 0.5;
+  margin-right: 5%;
+}
+
+.title-member {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--color-7);
+}
+
+.subtitle-member {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.stars {
+  display: flex;
+  color: var(--color-5);
+  margin-bottom: 6%;
+  font-size: 1.5rem;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userText {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-7);
+}
+
+.userName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.userJob {
+  font-size: 14px;
+  color: var(--color-6);
+  margin: 0;
+}
+
+.arrows-members {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  color: var(--color-5);
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: var(--color-4);
+}
