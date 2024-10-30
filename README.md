@@ -1,3 +1,3 @@
-# Pegasus-frontend
+# [FitClub](https://duarte-dot-fitclub.vercel.app/)
 
-processo seletivo - grupo pegasus
+frontend page for a fitclub using react
